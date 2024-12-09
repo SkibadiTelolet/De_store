@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De_Store</title>
+  <link rel="stylesheet" href="pembelian.css">
+</head>
+<body>
+  <header>
+    <div class="logo">De_Store</div>
+    <nav>
+      <a href="#" id="myAccountBtn">MY ACCOUNT</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="product" class="products">
+      <h1>MAXSIMUM ONE PRODUCT</h1>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="gtav.png" alt="GTA V">
+          <h2>GTA V</h2>
+          <p>250.000 Rp</p>
+          <button onclick="addToCart('GTA V')">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <img src="god.webp" alt="God of War"> 
+          <h2>GOD OF WAR</h2>
+          <p>250.000 Rp</p>
+          <button onclick="addToCart('God of War')">BUY NOW</button>
+        </div>
+        <div class="product-card">
+          <img src="cyberpunk.jpg" alt="Cyberpunk 2077">
+          <h2>CYBERPUNK 2077</h2>
+          <p>250.000 Rp</p>
+          <button onclick="addToCart('Cyberpunk 2077')">BUY NOW</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal HTML -->
+  <div id="myAccountModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>My Account</h2>
+      <p>Details about your account will be shown here.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2024 De_Store</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

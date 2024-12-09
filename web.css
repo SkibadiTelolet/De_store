@@ -1,0 +1,108 @@
+/* Reset margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set global styles for html and body */
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url('download.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #313131;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+.header {
+    background-color: #ec9474;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 8px;
+    width: 100%;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #000;
+    margin: auto;
+}
+
+/* Navbar styling */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    
+}
+
+.nav a:hover {
+    color: #0400ff;
+}
+
+/* Main content styling */
+.main {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.main h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ca5050;
+}
+
+/* Game section styling */
+.games {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #000000;
+}
+
+.game img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+/* Footer styling */
+.footer {
+    background-color: #ec9474;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer p {
+    font-size: 14px;
+}

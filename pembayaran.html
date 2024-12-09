@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu Pembayaran</title>
+  <link rel="stylesheet" href="pembayaran.css">
+</head>
+<body>
+  <header>
+    <div class="logo">De_Store</div>
+  </header>
+
+  <main>
+    <section class="checkout-container">
+      <h1>Checkout</h1>
+
+      <!-- Order Summary -->
+      <div class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="order-item">
+          <span id="order-item">GOD OF WAR</span>
+          <span id="order-price">IDR 250.000</span>
+        </div>
+        <div class="order-detail">
+          <div><span>Shipping fee</span><span>IDR 250.000</span></div>
+          <div><span>Convenience fee</span><span>IDR 3.000</span></div>
+        </div>
+        <div class="total">
+          <span><strong>Total</strong></span>
+          <span id="order-total">Loading...</span>
+        </div>
+      </div>
+
+      <!-- Payment Methods -->
+      <div class="payment-methods">
+        <h2>Payment methods</h2>
+        <div class="methods">
+          <button class="payment-btn">QRIS</button>
+          <button class="payment-btn">OVO</button>
+        </div>
+        <div class="buy-now"></div>
+          <button class="buy-now">BUY NOW</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 De_Store</p>
+  </footer>
+
+  <script src="pembayaran.js"></script>
+</body>
+</html>

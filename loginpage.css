@@ -1,0 +1,71 @@
+/* Background styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('HD-wallpaper-horizon-zero-dawn-game-landscape-aloy-mountains-scenery-games.jpg') no-repeat center center/cover;
+  color: #fff;
+}
+
+/* Card container */
+.container {
+  background: #ffffff;
+  color: #333;
+  padding: 2rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+/* Form header */
+.container h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 24px;
+  color: #4A4A4A;
+}
+
+/* Input fields */
+form input[type="email"],
+form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  border: 1px solid #6e8efb;
+  box-shadow: 0 0 5px rgba(110, 142, 251, 0.8);
+}
+
+/* Sign-in button */
+form button {
+  width: 100%;
+  padding: 12px;
+  background: #6e8efb;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #5671e8;
+}
+
+/* Register link */
+form a {
+  text-decoration: none;
+  color: #6e8efb
